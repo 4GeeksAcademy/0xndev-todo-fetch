@@ -6,7 +6,7 @@ function App() {
 
   // Fetch Todos initially
   useEffect(() => {
-    fetch("https://playground.4geeks.com/apis/fake/todos/user/derekguijt")
+    fetch("https://playground.4geeks.com/apis/fake/todos/user/0xndev")
       .then(response => response.json())
       .then(data => {
         if (Array.isArray(data)) { // Ensure the data is an array
