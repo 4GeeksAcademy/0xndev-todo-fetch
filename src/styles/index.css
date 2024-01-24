@@ -10,3 +10,84 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .delete-button {
+    display: none;
+    background-color: #ff4646;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Rounded shape for the X */
+    cursor: pointer;
+    font-size: 18px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-left: 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: #d22222;
+  }
+  
+  li:hover .delete-button {
+    display: inline-block;
+  }
+  
+  p {
+    color: #777;
+    font-size: 18px;
+    margin-top: 20px;
+  }
