@@ -47,7 +47,7 @@ function App() {
       // Handle the case where the index is out of bounds
       console.error('Index is out of bounds');
     }
-    fetch("https://playground.4geeks.com/apis/fake/todos/user/derekguijt", {
+    fetch("https://playground.4geeks.com/apis/fake/todos/user/0xndev", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(todos)
